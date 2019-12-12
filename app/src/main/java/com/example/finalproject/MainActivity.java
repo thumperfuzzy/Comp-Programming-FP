@@ -21,8 +21,6 @@ import static java.lang.Integer.getInteger;
 import static java.lang.Integer.valueOf;
 
 public class MainActivity extends AppCompatActivity {
-
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -39,13 +37,9 @@ public class MainActivity extends AppCompatActivity {
 				catch(NullPointerException NPE){
 					System.out.println("NullPointerException");
 				}
-
 			}
 		});
-
-
 	}
-
 }
 
 

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Final Project</string>
     <string name="NullPoint">Null Pointer Exception</string>
+    <string name="ArrayOOB">Array Index Out Of Bounds Exception</string>
 </resources>
