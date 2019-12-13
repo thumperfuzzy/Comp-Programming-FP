@@ -30,13 +30,9 @@ public class MainActivity extends AppCompatActivity {
 		NPEButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
-				int i = 0;
-				try {
-					i = getInteger(null);
-				}
-				catch(NullPointerException NPE){
-					System.out.println("NullPointerException");
-				}
+				Intent i = new Intent(getApplicationContext(),nullpoint.class);
+				startActivity(i);
+
 			}
 		});
 	}
