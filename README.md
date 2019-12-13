@@ -1,2 +1,2 @@
 # Comp-Programming-FP
-The final project for computer programming that an app that crashes
+This is my final project for my computer programming class that is an app that crashes in multiple ways
