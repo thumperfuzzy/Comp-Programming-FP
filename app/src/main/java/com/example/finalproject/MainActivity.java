@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 		ArrayOOB.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
-				Intent i = new Intent(getApplicationContext(),nullpoint.class);
+				Intent i = new Intent(getApplicationContext(),ArrayOOB.class);
 				startActivity(i);
 
 			}
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 		Arithmetic.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
-				Intent i = new Intent(getApplicationContext(),nullpoint.class);
+				Intent i = new Intent(getApplicationContext(),MathError.class);
 				startActivity(i);
 
 			}
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 		UnclosedStr.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
-				Intent i = new Intent(getApplicationContext(),nullpoint.class);
+				Intent i = new Intent(getApplicationContext(),OpenString.class);
 				startActivity(i);
 
 			}
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 		AboutBtn.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
-				Intent i = new Intent(getApplicationContext(),nullpoint.class);
+				Intent i = new Intent(getApplicationContext(),About.class);
 				startActivity(i);
 
 			}
