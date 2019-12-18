@@ -10,5 +10,9 @@ public class MathError extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_math_error);
+
+		int i = 1/2;
+		int k = 10/i;
+
 	}
 }
