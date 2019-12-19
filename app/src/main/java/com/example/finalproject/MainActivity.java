@@ -25,12 +25,57 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Button NPEButton = (Button)findViewById(R.id.button12);//TODO: change name of button to name of error that causes crash
+		Button NPEButton = (Button)findViewById(R.id.button12);
+		Button ArrayOOB = (Button)findViewById(R.id.button13);
+		Button Arithmetic = (Button)findViewById(R.id.button2);
+		Button UnclosedStr = (Button)findViewById(R.id.button3);
+		Button AboutBtn = (Button)findViewById(R.id.button4);
+		Button Home = (Button)findViewById(R.id.button5);
 
 		NPEButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
 				Intent i = new Intent(getApplicationContext(),nullpoint.class);
+				startActivity(i);
+
+			}
+		});
+		ArrayOOB.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				//null pointer exception
+				Intent i = new Intent(getApplicationContext(),ArrayOOB.class);
+				startActivity(i);
+
+			}
+		});
+		Arithmetic.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				//null pointer exception
+				Intent i = new Intent(getApplicationContext(),MathError.class);
+				startActivity(i);
+
+			}
+		});
+		UnclosedStr.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				//null pointer exception
+				Intent i = new Intent(getApplicationContext(),OpenString.class);
+				startActivity(i);
+
+			}
+		});
+		AboutBtn.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				//null pointer exception
+				Intent i = new Intent(getApplicationContext(),About.class);
+				startActivity(i);
+
+			}
+		});
+		Home.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				//null pointer exception
+				Intent i = new Intent(getApplicationContext(),MainActivity.class);
 				startActivity(i);
 
 			}
