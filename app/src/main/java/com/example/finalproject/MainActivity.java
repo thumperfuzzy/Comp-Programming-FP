@@ -32,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
 		Button AboutBtn = (Button)findViewById(R.id.button4);
 		Button Home = (Button)findViewById(R.id.button5);
 
+		Home.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				//null pointer exception
+				Intent i = new Intent(getApplicationContext(),MainActivity.class);
+				startActivity(i);
+
+			}
+		});
+
+
 		NPEButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				//null pointer exception
@@ -72,14 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
 			}
 		});
-		Home.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				//null pointer exception
-				Intent i = new Intent(getApplicationContext(),MainActivity.class);
-				startActivity(i);
 
-			}
-		});
 	}
 }
 

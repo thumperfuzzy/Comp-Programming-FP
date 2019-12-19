@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">Final Project</string>
+    <string name="app_name">404 Name Not Found</string>
     <string name="NullPoint">Null Pointer \nException</string>
     <string name="ArrayOOB">Array Index Out \n Of Bounds Exception</string>
     <string name="Matherr">Arithmetic \n exception</string>
     <string name="openString">Unclosed String \n Literal</string>
     <string name="ABT">About</string>
+    <string name="home">Home</string>
+    <string name="arerr">Arithmetic Error</string>
+    <string name="arerrdesc">Caused by an issue with your math, such as diving by zero. \n This is commonly caused if you make a mistake with integer math. \n for example: </string>
 </resources>
