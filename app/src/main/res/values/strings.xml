@@ -8,5 +8,5 @@
     <string name="home">Home</string>
     <string name="arerr">Arithmetic Error</string>
     <string name="arerrdesc">Caused by an issue with your math, such as diving by zero. \n This is commonly caused if you make a mistake with integer math. \n for example: </string>
-    <string name="arerrcont">Someone not super familiar with integer math would \n probably see this and think \"Oh, i gets set to \n 0.5 and then k divides 10 by i, which should be 20\".\n Integer math however says \n\"integer 1 / integer 2 = 0, so i = 0,\n then k is set to 10 / i, which is zero\"\n which would cause you to divide by zero.</string>
+    <string name="arerrcont">Someone not super familiar with integer math would probably see this\n and think \"Oh, i gets set to 0.5 and then k divides 10 by i, which\n should be 20\".Integer math however says \"integer 1 / integer 2 = 0,\n so i = 0, then k is set to 10 / i, which is zero\"\n which would cause you to divide by zero.</string>
 </resources>

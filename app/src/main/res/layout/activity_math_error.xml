@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:srcCompat="@drawable/Capture" />
+        tools:srcCompat="@drawable/capture" />
 
     <TextView
         android:id="@+id/textView3"
@@ -56,6 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:text="@string/arerrcont"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
