@@ -23,8 +23,7 @@ public class MathError extends AppCompatActivity {
 
 			}
 		});
-		int i = 1/2;
-		int k = 10/i;
+
 
 	}
 }
